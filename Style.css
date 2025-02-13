@@ -1,0 +1,351 @@
+/*TYPE*/
+@font-face {
+	font-family: Simply Rounded;
+	src: url(Simply Rounded.ttf);
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Simply Rounded, sans-serif;
+	font-weight: 400;
+}
+
+
+p, li, a {
+	font-family: arial, sans-serif;
+	font-weight: 200;
+}
+
+.container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.heavy{
+	font-weight: 700;
+}
+
+.light{
+	font-weight: 300;
+}
+
+
+/*Hero Section*/
+
+
+header.site-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+body.home .site-header {
+	width:100%;
+	position: absolute;
+	top:0;
+}
+.site-header img{
+	width: 216px;
+	height: 57px;
+	size: 100%;
+}
+
+.main-nav ul{
+	display: flex;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.main-nav ul li{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.main-nav ul li a{
+	color: black;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+
+.herohome{
+	min-height: 718px;
+	padding: 50px 100px 50px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("hero.jpg");
+
+}
+
+
+.herohome h1{
+	font-size: 104px;
+	font-weight: 800;
+}
+
+.herohome p{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.pathlinks img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: flex;
+	border-radius: 50%;
+}
+.path {
+	position: relative;
+}
+.path h2{
+	font-size: 48px;
+	text-align: center;
+	color: #24ace4;
+}
+
+.grow img:hover{
+	transform: scale(1.1);
+	transition: .5s;
+	padding: 5px;
+}
+
+
+
+/*FOOTER*/
+.site-footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+	background-color: #24ace4;
+}
+
+.site-footer a{
+	color: white;
+}
+
+.site-footer ul{
+	margin-top: 12px;
+	padding: 12px;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.site-footer li{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+
+/*HOMEPAGE END*/
+
+/*ABOUT ME*/
+
+.rounded img{
+	border-radius: 5%;
+	height: 700px;
+	width:100%;
+	object-fit: cover;
+}
+
+.about-content{
+	margin-top: 100px;
+}
+
+.about-content h2{
+	font-size: 64px;
+	color: #24ace4;
+	margin-bottom: 32px;
+}
+
+.about-content p{
+	font-size: 20px;
+}
+
+
+/*PORTFOLIO PAGE*/
+
+.portfolio-header{
+	margin-top: 100px;
+	margin-bottom: 75px;
+	text-align: center;
+
+}
+.portfolio-header h1{
+	font-size: 86px;
+	color:#24ace4;
+}
+
+.portfolio-header h2{
+	font-size: 64px;
+	font-weight: 800;
+	color: #24ace4;
+}
+
+.portfolio-header p{
+	font-size: 20;
+}
+
+.proj img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: flex;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+/*PORTFOLIO PATHWAY PAGE*/
+
+
+.port-projs h2{
+	text-align: center;
+	color: #24ace4;
+}
+
+.port-projs p{
+	text-align: center;
+}
+
+/*PROJECT PAGES*/
+
+.proj-hero img{
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+	display: flex;
+}
+ 
+.proj-hero{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.proj-hero h2{
+	font-weight: 600;
+	font-size: 56px;
+	color: #24ace4;
+	margin-bottom: 40px;
+}
+
+.proj-hero p {
+	font-size: 16px;
+}
+
+.proj-skills {
+	background-color: #24ace4;
+	box-shadow: 32px 23px #1e95c6;
+	margin-bottom: 100px;
+}
+
+
+.proj-skills h3{
+	font-size: 48px;
+	font-weight: 500;
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 12px;
+}
+
+.proj-skills ul li{
+	font-size: 20px;
+	font-weight: 200px;
+	color: white;
+}
+
+.vertical-centered{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*RECCOMENDATION REPORT*/
+
+.rr-content h3{
+	color: #24ace4;
+	font-weight: 500;
+	font-size: 36px;
+}
+
+.rr-content p{
+	font-size: 16px;
+}
+
+.rr-content img{
+	width: 100%;
+	height: 500px;
+	border-image-width: 20;
+	border-color: #248F8F;
+	object-fit: contain;
+	border-radius: 5%;
+}
+
+/*CARD SORT*/
+
+.card-content img{
+	width: 100%;
+	height: 500px;
+	object-fit: contain;
+	margin-bottom: 75px;
+	border-radius: 5%;
+}
+
+/*WIREFRAME PROJECT*/
+
+.wf-content img{
+	width: 100%;
+	object-fit: contain;
+	border-radius: 5%;
+}
+
+/*TECHNICAL DOCUMENT*/
+
+.tech-content img{
+	width: 100%;
+	height: 575px;
+	object-fit: contain;
+	border-radius: 5%;
+}
+
+
+
+/*IC REPORT*/
+
+.icr-content img{
+	width: 100%;
+	object-fit: contain;
+	border-radius: 5%;
+}
+
+
+/*CONTACT PAGE*/
+
+.contact-info{
+	margin-top: 95px;
+	margin-bottom: 155px;
+}
+
+.contact-info h2{
+	font-size: 64px;
+	color: #24ace4;
+}
+
+.contact-info li{
+	font-size: 28px;
+}
+
+.contact-info ul li{
+	display: flex;
+	list-style-type: none;
+	line-height: 2.0;
+}
+
+.contact-info ul li a{
+	color: black;
+}
