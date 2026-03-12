@@ -119,11 +119,11 @@ body.home .site-header {
   left: 0;
   bottom: 0;
   width: 100%;
-
+	background-color: #24ace4;
 }
 
 .site-footer a{
-	
+color: white;	
 }
 
 .site-footer ul{
@@ -349,3 +349,4 @@ body.home .site-header {
 .contact-info ul li a{
 	color: black;
 }
+
