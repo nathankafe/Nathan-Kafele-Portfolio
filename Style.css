@@ -304,6 +304,12 @@ color: white;
 	border-radius: 5%;
 }
 
+.wf-content h2{
+	color: #24ace4;
+	font-weight: 500;
+	font-size: 36px;
+}
+
 /*TECHNICAL DOCUMENT*/
 
 .tech-content img{
