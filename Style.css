@@ -33,6 +33,10 @@ p, li, a {
 
 /*Hero Section*/
 
+body{
+	display: flex;
+	flex-direction: column;
+}
 
 header.site-header{
 	display: flex;
@@ -112,22 +116,20 @@ body.home .site-header {
 	padding: 5px;
 }
 
-
-
 /*FOOTER*/
 .site-footer{
   left: 0;
   bottom: 0;
   width: 100%;
 	background-color: #24ace4;
+	flex-direction: column;
 }
 
 .site-footer a{
-color: white;	
+	color: white;
 }
 
 .site-footer ul{
-	margin-top: 12px;
 	padding: 12px;
 	display: flex;
 	list-style: none;
@@ -138,7 +140,7 @@ color: white;
 	font-family: sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	
+	color: white;
 }
 
 
@@ -228,7 +230,7 @@ color: white;
 }
 
 .proj-hero h2{
-	font-weight: 600;
+	font-weight: bold;
 	font-size: 56px;
 	color: #24ace4;
 	margin-bottom: 40px;
@@ -247,7 +249,7 @@ color: white;
 
 .proj-skills h3{
 	font-size: 48px;
-	font-weight: 500;
+	font-weight: bold;
 	color: white;
 	margin-top: 25px;
 	margin-bottom: 12px;
@@ -269,7 +271,7 @@ color: white;
 
 .rr-content h3{
 	color: #24ace4;
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 36px;
 }
 
@@ -296,18 +298,18 @@ color: white;
 	border-radius: 5%;
 }
 
+.card-content h3{
+	color: #24ace4;
+	font-weight: bold;
+	font-size: 36px;
+}
+
 /*WIREFRAME PROJECT*/
 
 .wf-content img{
 	width: 100%;
 	object-fit: contain;
 	border-radius: 5%;
-}
-
-.wf-content h2{
-	color: #24ace4;
-	font-weight: 500;
-	font-size: 36px;
 }
 
 /*TECHNICAL DOCUMENT*/
@@ -319,6 +321,12 @@ color: white;
 	border-radius: 5%;
 }
 
+.tech-content h2{
+	color: #24ace4;
+	font-weight: bold;
+	font-size: 36px;
+}
+
 
 
 /*IC REPORT*/
@@ -328,6 +336,13 @@ color: white;
 	object-fit: contain;
 	border-radius: 5%;
 }
+
+.icr-content h3{
+	color: #24ace4;
+	font-weight: bold;
+	font-size: 36px;
+}	
+
 
 
 /*CONTACT PAGE*/
@@ -355,4 +370,3 @@ color: white;
 .contact-info ul li a{
 	color: black;
 }
-
